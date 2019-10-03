@@ -191,7 +191,7 @@ INSERT INTO `sales` (`salesid`, `IDProduct`, `Price`, `QuatityInStore`, `Quantit
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user`
+-- table `user`
 --
 
 CREATE TABLE IF NOT EXISTS `user` (
@@ -212,7 +212,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`userid`, `name`, `address`, `e-mail`, `username`, `passwourd`, `role`, `activate`, `profilepicture`, `IDBranch`) VALUES
-(4, 'HARRY DEN', 'Kicukiro', 'kwizerobert@gmail.com', 'manager', '12345', 'Manager', 'Activate', 'roberto.jpg', 2),
+(4, 'BIKKU', 'Kicukiro', 'kwizerobert@gmail.com', 'manager', '12345', 'Manager', 'Activate', 'roberto.jpg', 2),
 (5, 'NEMA Roy', 'Kicukiro', 'nemaroy@gmail.com', 'nemaroy', '12345', 'Seller', 'Activate', 'AD-letter-logo-advanced-dental-designs-inc-logo.png', 2),
 (6, 'IRERA Brown', 'kanombe', 'irera@yahoo.fr', 'irera', '12345', 'Seller', 'Activate', 'ad-logo1_1x.png', 1);
 
