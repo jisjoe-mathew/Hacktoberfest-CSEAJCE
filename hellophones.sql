@@ -43,7 +43,7 @@ INSERT INTO `blanch` (`IDBranch`, `BranchName`, `Address`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `invoice`
+-- table `invoice`
 --
 
 CREATE TABLE IF NOT EXISTS `invoice` (
