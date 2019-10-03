@@ -62,13 +62,13 @@ INSERT INTO `mail` (`IDMail`, `IDUser`, `Time`, `Message`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `price`
+--  table `price`
 --
 
 CREATE TABLE IF NOT EXISTS `price` (
 `IDPrice` int(11) NOT NULL,
-  `IDProduct` int(11) NOT NULL,
-  `Price` int(11) NOT NULL
+  `IDProduct` int(11) ,
+  `Price` int(11) 
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 --
