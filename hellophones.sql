@@ -17,8 +17,9 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `hellophones`
+-- Database: `hellophones`, 
 --
+
 
 -- --------------------------------------------------------
 
@@ -77,7 +78,7 @@ CREATE TABLE IF NOT EXISTS `mail` (
 ) ENGINE=InnoDB AUTO_INCREMENT=180 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `mail`
+-- data table `mail`
 --
 
 INSERT INTO `mail` (`IDMail`, `IDUser`, `Time`, `Message`) VALUES
